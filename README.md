@@ -27,6 +27,9 @@ Not implmented (not attempted to build gr-baz against GNU Radio 3.7)
 Audio noise (Random souce)
 --------------------------
 
+Either the 'Random Source' and 'Short to Float' block can be enabled or the 'Noise Source' block, not both simultaneously. To enable, drag to select and the press E to enable or D to disable. 
+
+
 'Fast AutoCorrelation Sink' appears to be missing
 
 'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL``` error. (Missing OpenGL libs?)
