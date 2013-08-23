@@ -24,3 +24,13 @@ baz_any_test (Random source to print_char with varying threshold)
 
 Not implmented (not attempted to build gr-baz against GNU Radio 3.7)
 
+Audio noise (Random souce)
+--------------------------
+
+'Fast AutoCorrelation Sink' appears to be missing
+
+'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL``` error. (Missing OpenGL libs?)
+
+Used 'WX GUI Histo Sink' instead of 'Histo sink'
+
+Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
