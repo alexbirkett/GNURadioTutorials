@@ -42,3 +42,7 @@ Initally the 'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL`
 Used 'WX GUI Histo Sink' instead of 'Histo sink'
 
 Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
+
+Histo sink test (GLFSR source)
+-----------------------------
+This example does not appear to be working as expected
