@@ -1,5 +1,10 @@
 balint256's GNU Radio Tutorials recreated from video for GNU Radio 3.7
 
+General notes
+=============
+Before installing Python OpenGL, (on Ubuntu ```sudo apt-get install python-opengl```) the look and feel of the 'WX GUI Scope Sink' was different and the 'WX GUI Histo Sink' failed with a ```ImportError:No module named OpenGL``` error
+
+
 
 Part 1
 ======
@@ -13,7 +18,7 @@ Used 'WX GUI Slider' block instead of 'Variable Slider' block
 
 Delay test (Sine wave source)
 -----------------------------
-This example does not appear to be working correctly. XY Mode appears to work.
+This example did not work as expected until the OpenGL Python library was installed.
 
 Used 'WX GUI Slider' block instead of 'Variable Slider' block 
 
@@ -32,7 +37,7 @@ Either the 'Random Source' and 'Short to Float' block can be enabled or the 'Noi
 
 'Fast AutoCorrelation Sink' appears to be missing
 
-'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL``` error. (Missing OpenGL libs?)
+Initally the 'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL``` error. This was fixed by installing the Python OpenGL package
 
 Used 'WX GUI Histo Sink' instead of 'Histo sink'
 
