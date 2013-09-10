@@ -46,3 +46,17 @@ Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
 Histo sink test (GLFSR source)
 -----------------------------
 This example does not appear to be working as expected
+
+Part 2
+======
+
+[Video](http://www.youtube.com/watch?v=LzgDZytr7no)
+
+Hysteresis
+----------
+
+Used 'WX GUI Slider' block instead of 'Variable Slider' block 
+
+Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
+
+Used 'WX GUI Histo Sink' instead of 'Histo sink'
