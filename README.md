@@ -62,3 +62,21 @@ Hysteresis
 BER test (GLFSR source, biased random bit flips)
 ------------------------------------------------
 The error rate block does not appear to be outputting any data
+
+Part 3
+======
+
+[Video](http://www.youtube.com/watch?v=jMLUQa9A5Mk)
+
+Part 4
+======
+
+[Video](http://www.youtube.com/watch?v=JMEyN_lvaiE)
+
+
+Part 5
+======
+
+[Video](http://www.youtube.com/watch?v=GJKbD--MsLM)
+
+
