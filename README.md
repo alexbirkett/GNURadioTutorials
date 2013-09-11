@@ -60,3 +60,7 @@ Used 'WX GUI Slider' block instead of 'Variable Slider' block
 Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
 
 Used 'WX GUI Histo Sink' instead of 'Histo sink'
+
+BER test (GLFSR source, biased random bit flips)
+------------------------------------------------
+The error rate block does not appear to be outputting any data
