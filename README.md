@@ -4,7 +4,17 @@ General notes
 =============
 Before installing Python OpenGL, (on Ubuntu ```sudo apt-get install python-opengl```) the look and feel of the 'WX GUI Scope Sink' was different and the 'WX GUI Histo Sink' failed with a ```ImportError:No module named OpenGL``` error
 
+Block substitutions
+-------------------
+Some of the block names have changed between the version of GNU radio that balint used and 3.7. The following substutions were made:
 
+* 'Variable Slider' -> 'WX GUI Slider' 
+
+* 'Scope Sink' -> 'WX GUI Scope Sink'
+
+* 'Histo sink' ->  'WX GUI Histo Sink'
+
+* 'Number sink' -> 'WX GUI Number Sink'
 
 Part 1
 ======
@@ -14,15 +24,12 @@ Part 1
 
 Sine wave audio
 ---------------
-Used 'WX GUI Slider' block instead of 'Variable Slider' block
+
 
 Delay test (Sine wave source)
 -----------------------------
 This example did not work as expected until the OpenGL Python library was installed.
 
-Used 'WX GUI Slider' block instead of 'Variable Slider' block 
-
-Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
 
 baz_any_test (Random source to print_char with varying threshold)
 -----------------------------------------------------------------
@@ -39,9 +46,6 @@ Either the 'Random Source' and 'Short to Float' block can be enabled or the 'Noi
 
 Initally the 'WX GUI Histo Sink' causes a ```ImportError:No module named OpenGL``` error. This was fixed by installing the Python OpenGL package
 
-Used 'WX GUI Histo Sink' instead of 'Histo sink'
-
-Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
 
 Histo sink test (GLFSR source)
 -----------------------------
@@ -54,12 +58,6 @@ Part 2
 
 Hysteresis
 ----------
-
-Used 'WX GUI Slider' block instead of 'Variable Slider' block 
-
-Used 'WX GUI Scope Sink' block instead of 'Scope Sink' block
-
-Used 'WX GUI Histo Sink' instead of 'Histo sink'
 
 BER test (GLFSR source, biased random bit flips)
 ------------------------------------------------
