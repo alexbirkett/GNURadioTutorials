@@ -77,6 +77,11 @@ Part 4
 
 [Video](http://www.youtube.com/watch?v=JMEyN_lvaiE)
 
+FAC test (GLFSR source)
+----------------------
+This example uses a random source, not a GLFSR source. It's currenly not possible to use the fast auto-correlation block with GNU Radio 3.7 because [gr-baz does not compile](https://github.com/balint256/gr-baz/issues/19).
+
+
 
 Part 5
 ======
